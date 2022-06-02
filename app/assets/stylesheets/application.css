@@ -14,8 +14,7 @@
  *= require_self
  */
 body {
-    background-color: #e6e7e7;
-
+  background-color: #e6e7e7;
 }
 
 .register {
@@ -29,65 +28,61 @@ body {
   padding: 1rem;
 }
 
- .splash-screen {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    gap: 2rem;
-    padding: 1rem;
- }
+.splash-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 2rem;
+  padding: 1rem;
+}
 
- .bar {
-    background-color: #3778c2;
-    align-items: center;
- }
+.bar {
+  background-color: #3778c2;
+  align-items: center;
+}
 
- .button {
-    color: ghostwhite;
- }
+.button {
+  color: ghostwhite;
+}
 
- .in-link {
-     background-color: rgb(76, 76, 218);
-     color: white;
-     padding: 5px;
- }
+.in-link {
+  background-color: rgb(76, 76, 218);
+  color: white;
+  padding: 5px;
+}
 
- .action {
-    background-color: #9fc92b;
-    color: white;
-    height: 15vh;
-    padding-top: 50px;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    text-decoration: none;
-  }
+.action {
+  background-color: #9fc92b;
+  height: 15vh;
+  padding: 15px 0 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
 
-  .add-btn {
-      background-color: #9fc92b;
-  }
+.add-btn {
+  background-color: #9fc92b;
+}
 
-  .side-bar {
-      background-color: #3778c2;
-  }
+.side-bar {
+  background-color: #3778c2;
+}
 
-  .offcanvas-body li {
-    list-style: none;
-    padding: 0.5rem;
-    border-bottom: solid 1px rgb(54, 46, 46);
-    font-size: 1.2rem;
-    width: 100%;
-  }
-  
+.offcanvas-body li {
+  list-style: none;
+  padding: 0.5rem;
+  border-bottom: solid 1px rgb(54, 46, 46);
+  font-size: 1.2rem;
+  width: 100%;
+}
+
 .call {
   width: 100%;
   text-align: center;
   margin: 0;
-  padding: 15px 0 15px 0;
   position: absolute;
   bottom: 0;
   color: white;
