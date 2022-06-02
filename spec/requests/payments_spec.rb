@@ -39,16 +39,6 @@
 # # end
 # end
 
-
-
-
-
-
-
-
-
-
-
 # # RSpec.describe "/payments", type: :request do
 
 # #   # This should return the minimal set of attributes required to create a valid
