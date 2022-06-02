@@ -26,7 +26,7 @@ class PaymentsController < ApplicationController
     @payment.user = current_user
     
       if @payment.save
-         redirect_to category_path(id: @payment.category_id), notice: "Payment was successfully created."
+         redirect_to category_payments_path, notice: "Payment was successfully created."
         
       else
          render :new, status: :unprocessable_entity
