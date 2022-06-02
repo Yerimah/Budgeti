@@ -12,14 +12,51 @@
 # # of tools you can use to make these specs even more expressive, but we're
 # # sticking to rails and rspec-rails APIs to keep things simple and stable.
 
-# RSpec.describe "/payments", type: :request do
+# require 'rails_helper'
 
-#   # This should return the minimal set of attributes required to create a valid
-#   # Payment. As you add validations to Payment, be sure to
-#   # adjust the attributes here as well.
-#   let(:valid_attributes) {
-#     skip("Add a hash of attributes valid for your model")
-#   }
+# RSpec.describe '/payments', type: :request do
+#   before(:each) do
+#     @user = User.create(firstname: 'Dell', surname: 'pride', email: 'test@mail.com', password: 'password')
+#     @category = Category.create(name: 'Home', icon: 'https://cdn-icons-png.flaticon.com/128/2731/2731636.png',
+#                           user: @user)
+#     @payment = Payment.create(name: 'bulb', amount: 15)
+
+#     post user_session_path, params: { user: { email: @user.email, password: @user.password } }
+#     get root_path
+#   end
+
+#   describe 'GET /index' do
+#     it 'renders a successful response' do
+#       get payments_url
+#       expect(response).to be_successful
+#     end
+#   end
+
+# #     it 'renders correct content' do
+# #       expect(response.body).to include('Budgeti')
+# #     end
+# #   end
+# # end
+# end
+
+
+
+
+
+
+
+
+
+
+
+# # RSpec.describe "/payments", type: :request do
+
+# #   # This should return the minimal set of attributes required to create a valid
+# #   # Payment. As you add validations to Payment, be sure to
+# #   # adjust the attributes here as well.
+# #   let(:valid_attributes) {
+# #     skip("Add a hash of attributes valid for your model")
+# #   }
 
 #   let(:invalid_attributes) {
 #     skip("Add a hash of attributes invalid for your model")
