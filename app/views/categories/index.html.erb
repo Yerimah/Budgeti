@@ -1,0 +1,19 @@
+<h5 class="text-center mt-2">CATEGORIES</h5>
+<div class="p-4" id="categories">
+  <% @categories.each do |category| %>
+    <%= link_to category_payments_path(category_id: category.id), class:"nav-link" do %>
+      <%= render category %>
+      <% if @categories.empty? %>
+        <p> No categories </p>
+      <% end %>
+    <% end %>
+    <p>
+      
+    </p>
+  <% end %>
+</div>
+
+<div class="action call">
+<%= link_to "New category", new_category_path, class:"btn" %>
+</div>
+</div>

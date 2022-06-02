@@ -1,0 +1,12 @@
+<div class="p-4">
+<h1 class="text-center">Payments</h1>
+
+<div class="" id="payments">
+  <% @payments.each do |payment| %>
+    <%= render payment %>
+  <% end %>
+</div>
+</div>
+<div class="action call">
+<%= link_to "New payment", new_category_payment_path(category_id: @category.id), class:"btn" %>
+</div>
