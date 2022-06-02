@@ -1,30 +1,25 @@
-<div class="register">
-<h>Edit <%= resource_name.to_s.humanize %></h2>
+<div class="container register">
+<h4 class="text-center pt-4">Edit <%= resource_name.to_s.humanize %></h4>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
 
   <div class="field">
-  <%= f.label :firstname %><br />
-  <%= f.text_field :firstname, autofocus: true, autocomplete: "firstname", class:"form-control" %>
+  <%= f.text_field :firstname, autofocus: true, placeholder: "firstname", autocomplete: "firstname", class:"form-control" %>
 </div>
 
 <div class="field">
-  <%= f.label :surname %><br />
-  <%= f.text_field :surname, autofocus: true, autocomplete: "surname", class:"form-control" %>
+  <%= f.text_field :surname, autofocus: true, placeholder: "surname", autocomplete: "surname", class:"form-control" %>
 </div>
 
   <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"form-control" %>
+    <%= f.email_field :email, autofocus: true, placeholder: "email", autocomplete: "email", class:"form-control" %>
   </div>
 
   <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
     <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
   <% end %>
 
-  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">  
-<div class="accordion">
   <div class="field">
     <%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
     <%= f.password_field :password, autocomplete: "new-password", class:"form-control" %>
@@ -35,15 +30,11 @@
   </div>
 
   <div class="field">
-    <%= f.label :password_confirmation %><br />
-    <%= f.password_field :password_confirmation, autocomplete: "new-password", class:"form-control" %>
+    <%= f.password_field :password_confirmation, placeholder: "password_confirmation", autocomplete: "new-password", class:"form-control" %>
   </div>
   
   <div class="field">
-    <%= f.label :current_password %><br />
-    <%= f.password_field :current_password, autocomplete: "current-password", class:"form-control" %>
-  </div>
-  </div>
+    <%= f.password_field :current_password, placeholder: "current password", autocomplete: "current-password", class:"form-control" %>
   </div>
 
   <div class="form-group">
