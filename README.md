@@ -3,7 +3,7 @@
 
 # Budgeti App
 
-> A Recipe App.
+> Budgeti is a budget tracking app that helps you monitor how your budget was allocated and spent. Budgeti is built with Ruby on Rails and styled using boostrap
 
 
 ## Built With
