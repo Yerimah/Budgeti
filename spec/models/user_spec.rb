@@ -15,8 +15,13 @@ RSpec.describe User, type: :model do
     expect(subject.surname).to eql('Dee')
   end
 
-  it 'should have name present' do
-    subject.name = nil
+  it 'should have firstname present' do
+    subject.firstname = nil
+    expect(subject).to_not be_valid
+  end
+
+  it 'should have surname present' do
+    subject.surname = nil
     expect(subject).to_not be_valid
   end
 

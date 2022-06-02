@@ -5,6 +5,7 @@
 
 > Budgeti is a budget tracking app that helps you monitor how your budget was allocated and spent. Budgeti is built with Ruby on Rails and styled using boostrap
 
+![mobile interface](https://user-images.githubusercontent.com/71140133/171690486-db241bbd-fe14-439a-85cd-116138865355.PNG)
 
 ## Built With
 
@@ -17,7 +18,7 @@
 
 ## Live Demo (if available)
 
-[Coming Soon](https://livedemo.com)
+[Coming Soon](https://loom.com/share/85c506d480374b8187943c1606fa5d3f)
 
 
 ## Getting Started

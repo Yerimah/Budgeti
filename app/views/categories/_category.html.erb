@@ -1,13 +1,19 @@
-<div class="card d-flex justify-content-between flex-row p-3 mb-1" id="<%= dom_id category %>">
- <div class="d-flex flex-row"> 
-  <img src="<%= category.icon %>" >
+<div class="card">
+<div class="d-flex justify-content-between flex-row p-3 mb-1" id="<%= dom_id category %>">
+ <div class="d-flex flex-row">
+    <div class='cate-icon'>
+      <%= image_tag category.icon, height: 50 %>
+    </div> 
+  
   <p class="ms-2">
     <strong>
     <%= category.name %>
     </strong>
   </p>
 </div>
-  
   <p>$<%= category.total_payments %></p>
 </div>
-
+<div class="text-center">
+  <p class='formatted--date'><%= category.created_at.strftime('%d %b %Y') %></p>
+</div>
+</div>
