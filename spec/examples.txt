@@ -1,0 +1,18 @@
+example_id                                       | status | run_time        |
+------------------------------------------------ | ------ | --------------- |
+./spec/models/category_spec.rb[1:1]              | passed | 0.01192 seconds |
+./spec/models/payment_spec.rb[1:1]               | passed | 0.08068 seconds |
+./spec/models/user_spec.rb[1:1]                  | passed | 0.14102 seconds |
+./spec/models/user_spec.rb[1:2]                  | passed | 0.00928 seconds |
+./spec/models/user_spec.rb[1:3]                  | passed | 0.01355 seconds |
+./spec/models/user_spec.rb[1:4]                  | passed | 0.01439 seconds |
+./spec/models/user_spec.rb[1:5]                  | passed | 0.01358 seconds |
+./spec/models/user_spec.rb[1:6]                  | passed | 0.01833 seconds |
+./spec/routing/categories_routing_spec.rb[1:1:1] | passed | 0.00371 seconds |
+./spec/routing/categories_routing_spec.rb[1:1:2] | passed | 0.00225 seconds |
+./spec/routing/categories_routing_spec.rb[1:1:3] | passed | 0.00273 seconds |
+./spec/routing/categories_routing_spec.rb[1:1:4] | passed | 0.00206 seconds |
+./spec/routing/categories_routing_spec.rb[1:1:5] | passed | 0.00379 seconds |
+./spec/routing/categories_routing_spec.rb[1:1:6] | passed | 0.00712 seconds |
+./spec/routing/categories_routing_spec.rb[1:1:7] | passed | 0.00383 seconds |
+./spec/routing/categories_routing_spec.rb[1:1:8] | passed | 0.00209 seconds |
